@@ -6,5 +6,11 @@ I would love to write a CV without bothering too much about the design, where I 
 
 Web page CV is lovely, responsive for both desktop & mobile, but it is not PDF, which HRs will need. So I built a CI/CD pipeline via Github Actions to build PDF file based on the web page and post it on [Release Page](https://github.com/jackblk/my_cv/releases).
 
+## Guide for forking
+Feel free to fork and use my repo.
+
+Since I use [Ngrok](https://ngrok.com/) to tunnel the newest build to convert to PDF, if you fork my repo for the first time, it might not build & release your PDF file correctly.
+Go to Secrets of your repo and setup `NGROK_TOKEN` from your account.
+
 ## Credits
 * Designed by [Xiaoying Riley](https://github.com/xriley/DevResume-Theme). Thank you!
