@@ -1,3 +1,5 @@
+[![PDF release status](https://github.com/jackblk/my_cv/actions/workflows/python-app.yml/badge.svg)](https://github.com/jackblk/my_cv/releases/download/latest/LeThienTrung_CV.pdf)
+
 # Intro
 Nice looking, responsive web page CV on both desktop & mobile with auto-generated PDF file, powered by CI/CD pipeline from Github Actions.
 
